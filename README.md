@@ -81,12 +81,11 @@ This assignment asks you to go complete the Final Project for the [Intro to CS c
 ---
 
 ### Description
-
+This program is to test two peoples reaction time when asked to push button "a" or "b" when the image shows up and the image will show up at a random time between 1 second and 5 seconds. When "A" is pressed the mcirobit will show a string that notifies player 1 they have won and shows them the current score of the winning player as well as keeping track of the score. 
 #### Goal
-TODO
+Show knowledge of microbit programming using variables, conditional statements and logic. 
 
 #### Design process
-TODO
+
 
 #### JS Constructs & objects
-TODO
