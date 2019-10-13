@@ -24,7 +24,7 @@ basic.forever(function () {
         # . . . #
         . # # # .
         `)
-    while (!(input.buttonIsPressed(Button.A)) && !(input.buttonIsPressed(Button.B))) {
+    while (!(input.buttonIsPressed(Button.A)) && !(input.buttonIsPressed(Button.B))) {          //image will stay while neither button is pressed
         basic.pause(500)
     }
     if (input.buttonIsPressed(Button.A)) {
@@ -41,7 +41,7 @@ basic.forever(function () {
     } else if (input.buttonIsPressed(Button.B)) {
         basic.showString("Player 2!")
         basic.showLeds(`
-            . . # . .
+            . . # . .                                                               //notifies player 2 when button 'b' is pressed first and will show their current score
             . . . # .
             # # # # #
             . . . # .
@@ -51,5 +51,5 @@ basic.forever(function () {
         basic.showNumber(Player_2)
     }
     basic.pause(1000)
-    basic.clearScreen()
+    basic.clearScreen()                                                                 //clears the screen for the game to be reset
 })
